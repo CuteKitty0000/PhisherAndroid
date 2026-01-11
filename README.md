@@ -21,6 +21,24 @@ Human error is one of the weakest links in security. PhisherAndroid helps to:
 
 ---
 
+## 📸 Screenshots
+
+### 📱 App Interface
+
+> Screenshots are located in the `screenshots/` directory.
+
+<p align="center">
+  <img src="Screenshots/Screenshot_1.png" width="250" />
+  <img src="Screenshots/Screenshot_2.png" width="250" />
+  <img src="Screenshots/Screenshot_3.png" width="250" />
+</p>
+
+> *(Rename image filenames above if your actual files differ.)*
+
+---
+
+---
+
 ## ✨ Key Features
 
 ### 🔐 Login Page Templates
@@ -77,28 +95,7 @@ Built-in realistic login templates:
 | Hosting | Termux |
 | Templates | HTML / Flask (Python) |
 
----
 
-## 📸 Screenshots
-
-### 📱 App Interface
-
-> Screenshots are located in the `screenshots/` directory.
-
-<p align="center">
-  <img src="Screenshots/Screenshot_1.png" width="250" />
-  <img src="Screenshots/Screenshot_2.png" width="250" />
-  <img src="Screenshots/Screenshot_3.png" width="250" />
-</p>
-
-<p align="center">
-  <img src="screenshots/hosting.png" width="250" />
-  <img src="screenshots/settings.png" width="250" />
-</p>
-
-> *(Rename image filenames above if your actual files differ.)*
-
----
 
 ## 📱 How It Works
 
