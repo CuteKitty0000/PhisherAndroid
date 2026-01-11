@@ -1,69 +1,83 @@
-# 🚀 PhisherAndroid
+# 🚀 PhisherAndroid  
+### Android Phishing Simulation Framework for Cybersecurity Education
 
-**PhisherAndroid** is an **educational Android security tool** designed for **cybersecurity awareness, training, and authorized penetration testing**.  
-It demonstrates how phishing attacks work by serving realistic login pages and capturing submitted credentials in a controlled environment.
+PhisherAndroid is an **Android-based credential capture and phishing simulation tool** built for **cybersecurity awareness, red-team training, and authorized penetration testing**.  
+It showcases how realistic login pages and social engineering techniques can be used to deceive users—**strictly in controlled and legal environments**.
 
-> ⚠️ **Strictly for educational, research, and authorized testing purposes only.**
+> ⚠️ **DISCLAIMER**  
+> This project is intended **ONLY** for educational purposes, security research, and authorized penetration testing.  
+> Any misuse for illegal or unethical activities is strictly prohibited.  
+> The author assumes **no responsibility** for misuse.
 
 ---
 
-## ✨ Features
+## 🧠 Why PhisherAndroid?
 
-- 📱 Android-based local phishing framework  
-- 🌐 Built-in lightweight web server (**NanoHTTPD**)  
-- 🎨 Modern **Material 3 dark glassmorphism UI**  
-- 🔐 **7 built-in login templates**:
-  - Google  
-  - Instagram  
-  - Facebook  
-  - GitHub  
-  - LinkedIn  
-  - Telegram  
-  - SKCET  
-- 📦 Import **custom Flask (Python) templates**  
-- 📊 Real-time credential capture  
-- 🕵️ Browser & IP detection  
-- 🚀 **One-tap Termux integration** for public hosting  
-- 🗂️ Credentials organized by target site  
-- 🧭 Clean **5-tab navigation layout**
+Human error is one of the weakest links in security. PhisherAndroid helps:
+- Demonstrate real-world phishing techniques
+- Train users to recognize fake login pages
+- Educate students on offensive security concepts
+- Perform controlled red-team simulations
+
+---
+
+## ✨ Key Features
+
+### 🔐 Login Page Templates
+Built-in, realistic login templates:
+- Google  
+- Instagram  
+- Facebook  
+- GitHub  
+- LinkedIn  
+- Telegram  
+- SKCET  
+
+📦 Supports **custom template imports** (Flask-based Python phishing pages)
+
+---
+
+### 🌐 Networking & Capture
+- Embedded **NanoHTTPD** local web server  
+- Real-time credential capture  
+- Browser & IP address detection  
+- Timestamped logs  
+- Credentials organized by target site
+
+---
+
+### 📱 Android Experience
+- Built entirely with **Jetpack Compose**
+- **Material 3** dark glassmorphism UI  
+- Smooth animations and modern design  
+- Clean **5-tab navigation**:
+  - Dashboard  
+  - Templates  
+  - Captured Data  
+  - Hosting  
+  - Settings  
+
+---
+
+### 🚀 Hosting & Sharing
+- One-tap **Termux integration**
+- Expose local phishing server publicly (for labs & demos)
+- Ideal for classroom and CTF-style environments
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Kotlin**
-- **Jetpack Compose**
-- **NanoHTTPD**
-- **Material 3**
-- **Termux (optional for hosting)**
+| Layer | Technology |
+|-----|-----------|
+| Language | Kotlin |
+| UI | Jetpack Compose |
+| Design | Material 3 |
+| Server | NanoHTTPD |
+| Hosting | Termux |
+| Templates | HTML / Flask (Python) |
 
 ---
 
-## 📱 How It Works
+## 📸 Screenshots (Coming Soon)
 
-1. The app starts a **local web server** on the device  
-2. Realistic login pages are served to the target browser  
-3. Submitted credentials are captured and logged  
-4. Data is organized by site with metadata (IP, browser, time)
-
-This makes it ideal for **demonstrating phishing risks** during security training sessions.
-
----
-
-## ⚠️ Disclaimer
-
-This project is intended **ONLY** for:
-- Cybersecurity education  
-- Security awareness training  
-- Authorized penetration testing  
-- Ethical security research  
-
-❌ **Do NOT use this tool for illegal, malicious, or unauthorized activities.**  
-The developer is **not responsible** for misuse.
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/CuteKitty0000/PhisherAndroid.git
