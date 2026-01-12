@@ -1,5 +1,5 @@
 # 🚀 PhisherAndroid  
-### Android Phishing Simulation Framework for Cybersecurity Education
+### Android Phishing Framework for Cybersecurity Education
 
 PhisherAndroid is an **Android-based credential capture and phishing simulation tool** built for **cybersecurity awareness, red-team training, and authorized penetration testing**.  
 It demonstrates how realistic login pages and social engineering techniques can deceive users — **strictly in controlled and legal environments**.
